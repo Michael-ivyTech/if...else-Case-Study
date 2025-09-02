@@ -15,6 +15,13 @@ while (True):
 
     gpa = input("What is " + name + "'s GPA? ")
     gpa = float(gpa)
+    if (gpa < 0):
+        print("Please enter a valid GPA.")
+        continue
+    elif (gpa > 5.0):
+        print("Please enter a valid GPA.")
+        continue
+
     stu_roll = None
     
     if (gpa >= 3.5):
@@ -27,6 +34,7 @@ while (True):
     print(name + " with a GPA of " + str(gpa) + ", qualifies for " + stu_roll)
 
 '''
+Test Input:
 John
 4.0
 Jack
@@ -35,8 +43,10 @@ Will
 3.0
 Jenna
 3.33
+Carl
+-0.66
 Gabe
-4.45
+5.45
 ZZZ
 
 '''
