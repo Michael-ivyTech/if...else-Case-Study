@@ -1,5 +1,5 @@
 '''
-Michael
+Michael Baker
 ifelseM02.py
 
 This program accepts a student's first name and GPAs, then tests whether the student qualifies for the Dean's List or Honor Roll. This is done by using a while loop that continuously asks for the name and GPA until the user inputs 'ZZZ'.
